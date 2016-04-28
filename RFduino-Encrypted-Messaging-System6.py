@@ -1,7 +1,9 @@
-#	An encrypted messaging for the Raspberry Pi / computer (Depending on the serial driver) that uses FTDI and RFDuino.
-#   The encryption code is randomized every time the program is run. Neither users know the encryption key for added security.
+#	An encrypted messaging for the Raspberry Pi / computer (Depending on the serial driver specified) that uses FTDI and RFDuino.
+#	Can also use RFDuino with USB adapter and no FTDI.
+#   	The encryption code is randomized every time the program is run. Neither users know the encryption key in chatting mode for added security.
 #	Written by Johnny Dunn
-#	Sender = RFduino device
+#	Sender = Device
+#	Receiver = Host
 
 import threading
 from threading import Thread
