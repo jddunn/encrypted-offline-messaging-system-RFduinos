@@ -4,6 +4,7 @@
 #	Written by Johnny Dunn
 #	Sender = Device
 #	Receiver = Host
+#	Not commented very well but variable names should be obvious
 
 import threading
 from threading import Thread
